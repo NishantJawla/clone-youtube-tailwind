@@ -13,13 +13,13 @@
   </head>
   <body class="bg-gray-100 font-Roboto antialiased">
     <header
-      class="bg-white bg-opacity-75 divide-y ml-18 border-b fixed inset-x-0"
+      class="bg-white bg-opacity-75 divide-y ml-6 md:ml-18 border-b fixed inset-x-0"
     >
       <div class="flex justify-between items-center h-14 mx-4">
         <div class="-ml-3">
-          <img class="w-20 h-12" src="./images/logo.png" alt="" srcset="" />
+          <img class="md:w-20 h-12" src="./images/logo.png" alt="" srcset="" />
         </div>
-        <div class="flex justify-center items-center flex-grow">
+        <div class="flex justify-start md:justify-center items-center md:flex-grow mx-2 md:mx-0">
           <input
             type="text"
             placeholder="Search"
@@ -36,7 +36,7 @@
             class="
               bg-gray-200
               h-8
-              w-16
+              md:w-16
               border-gray-400 border-l-0
               hover:bg-gray-300
             "
@@ -44,22 +44,22 @@
             <i class="material-icons"> search </i>
           </button>
         </div>
-        <div class="flex justify-center items-center space-x-4">
-          <button class="flex justify-center items-center">
+        <div class="flex justify-start md:justify-center items-center md:space-x-4">
+          <button class="flex md:justify-center items-center">
             <i class="material-icons">video_call </i>
           </button>
-          <button class="flex justify-center items-center">
+          <button class="flex md:justify-center items-center">
             <i class="material-icons">apps </i>
           </button>
-          <button class="flex justify-center items-center">
+          <button class="flex md:justify-center items-center">
             <i class="material-icons">notifications </i>
           </button>
-          <button class="flex justify-center items-center">
+          <button class="flex md:justify-center items-center">
             <div class="h-8 w-8 rounded-full bg-blue-300"></div>
           </button>
         </div>
       </div>
-      <div class="flex items-center px-4 py-3 space-x-3">
+      <div class="flexitems-center md:px-4 py-3 space-x-3">
         <span
           class="
             text-sm
@@ -114,6 +114,8 @@
         >
         <span
           class="
+            hidden
+            md:inline
             text-sm
             bg-gray-200
             border border-gray-300
@@ -128,7 +130,7 @@
       </div>
     </header>
     <sidebar
-      class="fixed top-0 w-18 h-screen bg-white flex items-center flex-col"
+      class="fixed top-0 w-6 md:w-18 h-screen bg-white flex items-center flex-col"
     >
       <button>
         <i class="material-icons mt-4"> menu </i>
@@ -197,7 +199,7 @@
       <div class="border-b-4 border-gray-500 pb-10">
         <h3 class="text-xl font-bold">Recommended</h3>
 
-        <div class="mt-4 grid grid-cols-4 col-gap-10 row-gap-4">
+        <div class="mt-4 grid md:grid-cols-4 col-gap-10 row-gap-4">
           <div class="w-68 mt-4">
             <div class="h-40 w-full bg-gray-700"></div>
             <div class="flex mt-2">
@@ -339,7 +341,7 @@
 
       <div class="mt-4">
         <h3 class="text-xl font-bold">Latest Youtube Posts</h3>
-        <div class="mt-2 grid grid-cols-3 gap-6">
+        <div class="mt-2 grid md:grid-cols-3 gap-6">
           <div
             class="w-94 bg-white flex flex-col px-3 py-1 border border-gray-600"
           >
