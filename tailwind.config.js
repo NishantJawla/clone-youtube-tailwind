@@ -11,6 +11,9 @@ module.exports = {
       },
       fontFamily: {
         'Roboto' : ['Roboto','Arial', 'sans-serif'],
+      },
+      fontSize: {
+        'xxs': '.5rem'
       }
     },
   },

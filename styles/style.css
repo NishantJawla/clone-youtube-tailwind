@@ -23186,6 +23186,10 @@ video {
   line-height: 1;
 }
 
+.text-xxs{
+  font-size: .5rem;
+}
+
 .font-thin{
   font-weight: 100;
 }
@@ -55524,6 +55528,10 @@ video {
     line-height: 1;
   }
 
+  .sm\:text-xxs{
+    font-size: .5rem;
+  }
+
   .sm\:font-thin{
     font-weight: 100;
   }
@@ -87448,6 +87456,10 @@ video {
   .md\:text-9xl{
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .md\:text-xxs{
+    font-size: .5rem;
   }
 
   .md\:font-thin{
@@ -119376,6 +119388,10 @@ video {
     line-height: 1;
   }
 
+  .lg\:text-xxs{
+    font-size: .5rem;
+  }
+
   .lg\:font-thin{
     font-weight: 100;
   }
@@ -151302,6 +151318,10 @@ video {
     line-height: 1;
   }
 
+  .xl\:text-xxs{
+    font-size: .5rem;
+  }
+
   .xl\:font-thin{
     font-weight: 100;
   }
@@ -183226,6 +183246,10 @@ video {
   .\32xl\:text-9xl{
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .\32xl\:text-xxs{
+    font-size: .5rem;
   }
 
   .\32xl\:font-thin{

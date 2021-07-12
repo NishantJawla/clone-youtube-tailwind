@@ -13,7 +13,7 @@
   </head>
   <body class="bg-gray-100 font-Roboto antialiased">
     <header
-      class="bg-white bg-opacity-75 divide-y ml-6 md:ml-18 border-b fixed inset-x-0"
+      class="bg-white bg-opacity-75 divide-y md:ml-18 ml-10 border-b fixed inset-x-0"
     >
       <div class="flex justify-between items-center h-14 mx-4">
         <div class="-ml-3">
@@ -101,6 +101,8 @@
         >
         <span
           class="
+            hidden
+            md:inline
             text-sm
             bg-gray-200
             border border-gray-300
@@ -130,7 +132,7 @@
       </div>
     </header>
     <sidebar
-      class="fixed top-0 w-6 md:w-18 h-screen bg-white flex items-center flex-col"
+      class="fixed top-0 w-10 md:w-18 h-screen bg-white flex items-center flex-col"
     >
       <button>
         <i class="material-icons mt-4"> menu </i>
@@ -149,7 +151,7 @@
           "
         >
           <i class="material-icons small">home</i>
-          <span class="text-xs">Home</span>
+          <span class="text-xxs md:text-xs">Home</span>
         </button>
         <button
           class="
@@ -163,7 +165,7 @@
           "
         >
           <i class="material-icons small">local_fire_department</i>
-          <span class="text-xs">Trending</span>
+          <span class="text-xxs md:text-xs">Trending</span>
         </button>
         <button
           class="
@@ -177,7 +179,7 @@
           "
         >
           <i class="material-icons small">subscriptions</i>
-          <span class="text-xs">Subscriptions</span>
+          <span class="text-xxs md:text-xs">Subscriptions</span>
         </button>
         <button
           class="
@@ -191,11 +193,11 @@
           "
         >
           <i class="material-icons small">video_library</i>
-          <span class="text-xs">Library</span>
+          <span class="text-xxs md:text-xs">Library</span>
         </button>
       </div>
     </sidebar>
-    <main class="ml-24 pt-32">
+    <main class="ml-12 md:ml-24 pt-32">
       <div class="border-b-4 border-gray-500 pb-10">
         <h3 class="text-xl font-bold">Recommended</h3>
 
